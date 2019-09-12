@@ -5,8 +5,8 @@
             "execute_command": "sudo -S sh '{{.Path}}'",
             "scripts": [
                 "scripts/base.sh",
-				"scripts/user.sh",
-				"scripts/cleanup.sh"
+		"scripts/user.sh",
+		"scripts/cleanup.sh"
             ],
             "expect_disconnect": true
         }
@@ -26,7 +26,6 @@
             ],
 			"boot_wait": "2s",
 			"disk_size": 20480,
-			"guest_os_type": "ubuntu-64",
 			"headless": true,
 			"http_directory": "http",
 			"iso_urls": [
@@ -42,7 +41,6 @@
 			"ssh_password": "vagrant",
 			"ssh_port": 22,
 			"ssh_wait_timeout": "60m",
-			"tools_upload_flavor": "linux",
 			"vm_name": "kali-linux-rolling-base"
         }
     ]
